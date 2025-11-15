@@ -113,7 +113,7 @@ header h1
 }
 
 .enterBtn{
-    margin: 50% 50% 0 38%;
+    margin: 55% 50% 0 38%;
 }
 
 .enterBtn h3
@@ -380,4 +380,5 @@ header h1
         align-items: center;
         margin-top: -10px !important;
     }
+
 }
