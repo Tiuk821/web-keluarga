@@ -1,0 +1,383 @@
+body, *
+{
+    padding: 0;
+    margin: 0;
+}
+
+.text-center
+{
+    text-align: center;
+}
+
+.test
+{
+    margin: -25px 0 -25px 0;
+}
+
+.judul-utama a
+{
+    text-decoration: none;
+    color: black;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 3.5px;
+}
+
+.sub-judul
+{
+    letter-spacing: 2px;
+    font-weight: 100;
+    margin-top: -15px;
+}
+
+.navbar-nav
+{
+    margin-top: 20px;
+    font-family: 'Playfair Display', serif;
+    gap: 30px;
+}
+
+.hero h2
+{
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    padding-top: 30px;
+}
+
+header h1
+{
+    padding-top: 30px;
+}
+
+.navbar-nav em
+{
+    padding-bottom: 30px;
+}
+
+.brdr {
+    border: solid #b8b7b1 3px;
+    width: 250px;
+    background-color: #fdfcf8;
+}
+
+.welcome {
+    background-color: #efeee8;
+    border: solid #9d9d99 2px;
+    padding: 15px;
+    height: 350px;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    color: #4a4a4a;
+}
+
+.familyTree {
+    background-color: #efeee8;
+    border: solid #9d9d99 2px;
+    padding: 15px;
+    height: 350px;
+    font-family: 'Playfair Display', serif;
+    color: #4a4a4a;
+    background-image: url(family_tree.png);
+    background-position: center;
+    background-size: 160px;
+    background-repeat: no-repeat;
+}
+
+.keepInTouch {
+    background-color: #efeee8;
+    border: solid #9d9d99 2px;
+    padding: 15px;
+    height: 350px;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    color: #4a4a4a;
+}
+
+.judulKotak em h1
+{
+    font-size: 2rem;
+}
+
+.greenTxt
+{
+    color: green;
+}
+
+.hero .row
+{
+    padding-top: 25px;
+    padding-left: 75px;
+}
+
+.familyTree a{
+    position: relative;
+}
+
+.enterBtn h3
+{
+    position: absolute;
+    background-image: linear-gradient(rgb(128, 172, 128), rgb(80, 152, 80));
+    width: 100px;
+    text-align: center !important;
+    font-size: 1.4rem;
+    border-radius: 5px;
+    top: 225px;
+    left: 50px;
+    border: solid rgb(74, 148, 74) 3px;
+}
+
+.enterBtn h3:hover
+{
+    background-image: linear-gradient(rgb(172, 206, 155), rgb(172, 206, 155));
+    color: rgb(80, 152, 80);
+    transition: 0.5s;
+}
+
+.familyTree a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.teksWelcome
+{
+    padding-top: 30px;
+}
+
+.brdrCeritaKami {
+    border: solid #b8b7b1 3px;
+    width: 805px;
+    background-color: #fdfcf8;
+    margin: 20px 0 0 0;
+
+}
+
+.brdrIcon
+{
+    border: solid #b8b7b1 3px;
+    width: 205px;
+    background-color: #fdfcf8;
+    margin: 20px 0 0 0;
+
+}
+
+.ceritaKami
+{
+    background-color: #efeee8;
+    border: solid #9d9d99 2px;
+    padding: 15px;
+    height: 550px;
+    width: 800px;
+    font-family: 'Playfair Display', serif;
+    color: #4a4a4a;
+}
+
+.iconKeluarga
+{
+    background-color: #efeee8;
+    border: solid #9d9d99 2px;
+    padding: 15px;
+    height: 550px;
+    width: 200px;
+    font-family: 'Playfair Display', serif;
+    color: #4a4a4a;
+}
+
+
+
+.circleIcon
+{
+    background-color: #b8344c7d;
+    border-radius: 50px;
+    width: 75px;
+    height: 75px;
+    margin-top: 15px;
+    text-align: center;
+    padding: auto;
+    margin-bottom: 30px;
+    margin-left: 50px;
+}
+
+
+.icon p
+{
+    align-items: center;
+    padding-top: 20px;
+    color: white;
+}
+
+.hero-img
+{
+    text-align: center;
+}
+
+.ourFamTree
+{
+    background-color: #fdfcf8;
+    border: solid #9d9d99 2px;
+    width: 415px;
+    height: 45px;
+    padding: 0 auto;
+}
+
+.brdrOurFamTree
+{
+    border: solid #b8b7b1 3px;
+    width: 419px;
+    height: 50px;
+    align-items: center;
+    margin-top: -50px !important;
+}
+
+.ourFamTree h3
+{
+    text-align: center;
+}
+
+.container .row .col .brdrOurFamTree
+{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.hero-img-2 img
+{
+    display: none;
+}
+
+.hide{
+    display: none;
+}
+
+@media(max-width:750px){
+    .circleIcon{
+        background-color: #b8344c;
+    }
+
+    .btn-cerita{
+        background-color: #b8344cd2;
+        border-radius: 50px;
+        width: 75px;
+        height: 75px;
+        margin: 1px auto 0 auto;
+        text-align: center;
+        padding: auto;
+        border: none;
+    }
+
+    .iconKeluarga{
+        background-image: url(foto-bareng.jpg);
+        background-position: 50%, 50%;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        border: solid #9d9d99 2px;
+        padding: 15px;
+        height: 550px;
+        width: 200px;
+        font-family: 'Playfair Display', serif;
+        color: #4a4a4a;
+    }
+
+    .enterBtn h3{
+        left: 160px;
+   }
+
+    .brdr{
+        width: 100%;
+    }
+
+    .main{
+        margin: 0;
+    }
+
+    .cerita{
+        flex-wrap: wrap-reverse !important;
+    }
+
+    .mrgt
+    {
+        margin-top: -50px;
+    }
+
+    .navbar-nav
+    {
+        gap: 20px;
+    }
+
+    .ceritaKami
+    {
+        height: 505px;
+        width: 400px;
+        margin: 0 auto;
+        align-items: center;
+    }
+
+    .brdrCeritaKami {
+        border: solid #b8b7b1 3px;
+        width: 405px;
+        background-color: #fdfcf8;
+        justify-content: center;
+        margin: 20px auto 0 auto;
+    }
+
+    .brdrIcon
+    {
+        border: solid #b8b7b1 3px;
+        width: 455px;
+        background-color: #fdfcf8;
+        margin: 20px auto 0 auto;
+    }
+
+    .iconKeluarga
+    {   
+        display: flex;
+        background-color: #efeee8;
+        border: solid #9d9d99 2px;
+        padding: 15px;
+        height: 125px;
+        width: 450px;
+        font-family: 'Playfair Display', serif;
+        color: #4a4a4a;
+    }   
+
+    .circleIcon
+    {
+        background-color: #b8344cd2;
+        border-radius: 50px;
+        width: 75px;
+        height: 75px;
+        margin: 15px auto 0 auto;
+        text-align: center;
+        padding: auto;
+    }
+
+    .hero-img img
+    {
+        width: 500px;
+        height: 200px;
+        display: none;
+    }
+
+    .hero-img-2 img
+    {
+        margin: 0 auto;
+        display: block;
+    }
+    
+    .ourFamTree
+    {
+        background-color: #fdfcf8;
+        border: solid #9d9d99 2px;
+        width: 215px;
+        height: 35px;
+        padding: 0 auto;
+    }
+
+    .brdrOurFamTree
+    {
+        border: solid #b8b7b1 3px;
+        width: 219px;
+        height: 40px;
+        align-items: center;
+        margin-top: -10px !important;
+    }
+}
